@@ -19,7 +19,7 @@ spec:
         - containerPort: 8080
         env:
         - name: CELLS_SITE_EXTERNAL
-          value: https://drive.pmh.codes
+          value: https://drive.juwon.codes
         volumeMounts:
         - mountPath: /var/cells
           name: pydio-storage

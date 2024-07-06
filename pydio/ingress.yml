@@ -8,11 +8,11 @@ metadata:
 spec:
   tls:
   - hosts:
-    - drive.pmh.codes
+    - drive.juwon.codes
     secretName: pydio-ingress-tls
   ingressClassName: nginx
   rules:
-  - host: drive.pmh.codes
+  - host: drive.juwon.codes
     http:
       paths:
       - path: /
